@@ -4,5 +4,5 @@
     tasks:
       - name: create a file
         file:
-          src: /tmp/test
+          name: /tmp/test
           state: directory

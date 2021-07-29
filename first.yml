@@ -1,0 +1,7 @@
+---
+  - name: first playbook
+    tasks:
+      - name: create a file
+        file:
+          src: /tmp/test
+          state: directory
